@@ -4,4 +4,5 @@ return {
   require('plugins.lsp'),
   require('plugins.treesitter'),
   require('plugins.gitsigns'),
+  require('plugins.conform'),
 }

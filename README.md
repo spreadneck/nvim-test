@@ -32,5 +32,6 @@ plugins.
 * [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip) - snippets
 * [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - syntax highlighting
 * [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - git integration
+* [stevearc/conform.nvim](https://github.com/stevearc/conform.nvim) - autoformatting
 
 Feel free to expand or modify the configuration to suit your workflow.
