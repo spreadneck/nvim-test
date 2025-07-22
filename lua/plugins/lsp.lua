@@ -2,7 +2,6 @@
 -- https://github.com/neovim/nvim-lspconfig
 return {
   'neovim/nvim-lspconfig',
-  version = 'v0.1.0',
   dependencies = {
     'williamboman/mason.nvim',
     'williamboman/mason-lspconfig.nvim',

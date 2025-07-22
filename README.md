@@ -8,7 +8,7 @@ and
 The goal is a simple yet modular setup using
 [lazy.nvim](https://github.com/folke/lazy.nvim) as the plugin manager and a
 minimal set of plugins built around [mini.nvim](https://github.com/echasnovski/mini.nvim)
-and LSP.
+and LSP. It targets the current Neovim stable release (0.11).
 
 ## Usage
 Clone this repository as your Neovim config directory (usually `~/.config/nvim`).
@@ -18,7 +18,11 @@ plugins.
 ## Plugins
 
 * [folke/lazy.nvim](https://github.com/folke/lazy.nvim) - plugin manager
-* [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) - core functionality
+* [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) -
+  modules: `ai`, `surround`, `bufremove`, `completion`, `cursorword`,
+  `pairs`, `tabline`, `files`, `trailspace`, `pick`, `snippets`,
+  `statusline`, `notify`, `git`, `visits`, `animate`, `icons`, `fuzzy`, and
+  `starter`
 * [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) with
   [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) and
   [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
